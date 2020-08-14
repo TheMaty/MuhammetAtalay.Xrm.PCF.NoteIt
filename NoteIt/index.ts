@@ -12,6 +12,8 @@ export class NoteIt implements ComponentFramework.StandardControl<IInputs, IOutp
 	private _notifyOutputChanged: () => void;
 	private _context: ComponentFramework.Context<IInputs>;
 	private _columnNumber: number = -1;
+	private _displayColumnName: boolean = false;
+	
 
 
 	/**
@@ -37,7 +39,9 @@ export class NoteIt implements ComponentFramework.StandardControl<IInputs, IOutp
 		this._container = container;
 		this._context = context;
 		this._columnNumber =  this._context.parameters.columnNumberDisplayed === null ? 3 : 
-							 	(this._context.parameters.columnNumberDisplayed.raw === null ? 3 : this._context.parameters.columnNumberDisplayed.raw);
+								 (this._context.parameters.columnNumberDisplayed.raw === null ? 3 : this._context.parameters.columnNumberDisplayed.raw);
+		this._displayColumnName =  this._context.parameters.displayColumnName === null ? false : 
+							 	(this._context.parameters.displayColumnName.raw === null ? false : this._context.parameters.displayColumnName.raw);		
 		
 	}
 
@@ -93,7 +97,11 @@ export class NoteIt implements ComponentFramework.StandardControl<IInputs, IOutp
 							return;
 
 						var _pElement = document.createElement("p");
-						_pElement.append(element[col.name]);
+						if (this._displayColumnName)
+							_pElement.append(col.displayName + ":" + element[col.name]);
+						else
+							_pElement.append(element[col.name]);
+	
 						_divChildElement.append(_pElement);
 						counter++;
 					});

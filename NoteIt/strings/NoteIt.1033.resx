@@ -73,4 +73,10 @@
   <data name="MuhammetAtalay.XRM.PCF.NoteIt.columnNumberDisplayed.Description" xml:space="preserve">
     <value>How many columns do you want to display in each PostIt (Optimum value is 3)?</value>
   </data>
+  <data name="MuhammetAtalay.XRM.PCF.NoteIt.displayColumnName.DisplayKey" xml:space="preserve">
+    <value>Display Column Name in PostIt</value>
+  </data>
+  <data name="MuhammetAtalay.XRM.PCF.NoteIt.displayColumnName.Description" xml:space="preserve">
+    <value>Do you want to see column name?</value>
+  </data>
 </root>
