@@ -1,0 +1,2 @@
+C:\source\repos\MuhammetAtalay.Xrm.PCF.NoteIt\obj\Debug\MuhammetAtalay.Xrm.PCF.NoteIt.pcfprojAssemblyReference.cache
+C:\source\repos\MuhammetAtalay.Xrm.PCF.NoteIt\obj\Debug\MuhammetAtalay.Xrm.PCF.NoteIt.pcfproj.CoreCompileInputs.cache

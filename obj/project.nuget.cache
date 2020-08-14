@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Bov66zPlGPYqW5KJb7aUzkYvEMSGFV0W9zT1kNBCPw0gLT3BnUYUHh3UzgbcfW4W8wZBrSOG5YN0Oenywkkjlg==",
+  "success": true,
+  "projectFilePath": "C:\\source\\repos\\MuhammetAtalay.Xrm.PCF.NoteIt\\MuhammetAtalay.Xrm.PCF.NoteIt.pcfproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\atala\\.nuget\\packages\\microsoft.powerapps.msbuild.pcf\\1.3.6\\microsoft.powerapps.msbuild.pcf.1.3.6.nupkg.sha512"
+  ],
+  "logs": []
+}
