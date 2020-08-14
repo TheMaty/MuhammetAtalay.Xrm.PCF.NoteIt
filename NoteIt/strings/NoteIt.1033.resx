@@ -74,9 +74,9 @@
     <value>How many columns do you want to display in each PostIt (Optimum value is 3)?</value>
   </data>
   <data name="MuhammetAtalay.XRM.PCF.NoteIt.displayColumnName.DisplayKey" xml:space="preserve">
-    <value>Display Column Name in PostIt</value>
+    <value>Display Column Name in PostIt  (false - true or 0 - 1) </value>
   </data>
   <data name="MuhammetAtalay.XRM.PCF.NoteIt.displayColumnName.Description" xml:space="preserve">
-    <value>Do you want to see column name?</value>
+    <value>Do you want to see column name? type false or true - 0 or 1 . Default value is false for any improper value(s)</value>
   </data>
 </root>

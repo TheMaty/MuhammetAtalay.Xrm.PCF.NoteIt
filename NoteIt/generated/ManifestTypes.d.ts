@@ -5,7 +5,7 @@
 // Define IInputs and IOutputs Type. They should match with ControlManifest.
 export interface IInputs {
     columnNumberDisplayed: ComponentFramework.PropertyTypes.WholeNumberProperty;
-    displayColumnName: ComponentFramework.PropertyTypes.TwoOptionsProperty;
+    displayColumnName: ComponentFramework.PropertyTypes.StringProperty;
     dataSetInstance: ComponentFramework.PropertyTypes.DataSet;
 }
 export interface IOutputs {

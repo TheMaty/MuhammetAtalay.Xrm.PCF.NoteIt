@@ -41,7 +41,7 @@ export class NoteIt implements ComponentFramework.StandardControl<IInputs, IOutp
 		this._columnNumber =  this._context.parameters.columnNumberDisplayed === null ? 3 : 
 								 (this._context.parameters.columnNumberDisplayed.raw === null ? 3 : this._context.parameters.columnNumberDisplayed.raw);
 		this._displayColumnName =  this._context.parameters.displayColumnName === null ? false : 
-							 	(this._context.parameters.displayColumnName.raw === null ? false : this._context.parameters.displayColumnName.raw);		
+							 	(this._context.parameters.displayColumnName.raw === null ? false : (this._context.parameters.displayColumnName.raw.toLowerCase() === "true" ? true : false));		
 		
 	}
 
