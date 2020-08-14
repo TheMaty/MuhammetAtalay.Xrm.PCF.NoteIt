@@ -169,3 +169,22 @@ Packing C:\source\repos\MuhammetAtalay.Xrm.PCF.NoteIt\NoteItControl\obj\Release\
 2020-08-14 10:21:56.223 - Info	
 Managed Pack complete.
 
+2020-08-14 10:45:36.256 - Info	
+Packing C:\source\repos\MuhammetAtalay.Xrm.PCF.NoteIt\NoteItControl\obj\Release\Metadata to bin\Release\NoteItControl.zip
+
+2020-08-14 10:45:36.268 - Info	Processing Component: Entities
+2020-08-14 10:45:36.272 - Info	Processing Component: Roles
+2020-08-14 10:45:36.276 - Info	Processing Component: Workflows
+2020-08-14 10:45:36.277 - Info	Processing Component: FieldSecurityProfiles
+2020-08-14 10:45:36.277 - Info	Processing Component: Templates
+2020-08-14 10:45:36.278 - Info	Processing Component: EntityMaps
+2020-08-14 10:45:36.278 - Info	Processing Component: EntityRelationships
+2020-08-14 10:45:36.284 - Info	Processing Component: OrganizationSettings
+2020-08-14 10:45:36.285 - Info	Processing Component: optionsets
+2020-08-14 10:45:36.285 - Info	Processing Component: CustomControls
+2020-08-14 10:45:36.294 - Info	 - MuhammetAtalay.Xrm.PCF.NoteIt
+2020-08-14 10:45:36.304 - Info	Processing Component: SolutionPluginAssemblies
+2020-08-14 10:45:36.305 - Info	Processing Component: EntityDataProviders
+2020-08-14 10:45:36.329 - Info	
+Managed Pack complete.
+
